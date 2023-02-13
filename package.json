@@ -1,6 +1,6 @@
 {
   "name": "frankfanhl-test2",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A react library developed with dumi",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,8 @@
     "lint": "npm run lint:es && npm run lint:css",
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
-    "prepublishOnly": "father doctor && npm run build"
+    "prepublishOnly": "father doctor && npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "authors": [],
   "license": "MIT",
@@ -66,5 +67,9 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "stylelint": "^14.9.1"
+  },
+  "dependencies": {
+    "antd": "^5.2.0",
+    "gh-pages": "^5.0.0"
   }
 }

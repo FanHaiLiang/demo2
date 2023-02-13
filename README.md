@@ -1,40 +1,12 @@
-# frankfanhl-test2
+[dumi 文档](https://d.umijs.org/guide)
+[father 文档](https://github.com/umijs/father)
 
-[![NPM version](https://img.shields.io/npm/v/frankfanhl-test2.svg?style=flat)](https://npmjs.org/package/test2)
-[![NPM downloads](http://img.shields.io/npm/dm/frankfanhl-test2.svg?style=flat)](https://npmjs.org/package/test2)
+### 开发
+1. yarn
+2. yarn start
 
-A react library developed with dumi
-
-## Usage
-
-TODO
-
-## Options
-
-TODO
-
-## Development
-
-```bash
-# install dependencies
-$ yarn install
-
-# develop library by docs demo
-$ yarn start
-
-# build library source code
-$ yarn run build
-
-# build library source code in watch mode
-$ yarn run build:watch
-
-# build docs
-$ yarn run docs:build
-
-# check your project for potential problems
-$ yarn run doctor
-```
-
-## LICENSE
-
-MIT
+### 发版
+1. 第一次发版
+    1. npm adduser
+1. 修改 package.json version 增加1
+2. npm publish

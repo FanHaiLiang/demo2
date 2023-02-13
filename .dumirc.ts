@@ -16,11 +16,11 @@ export default defineConfig({
           children: [
             {
               title: 'Button',
-              link: 'components/foo',
+              link: 'components/Foo',
             },
             {
-              title: 'test',
-              link: 'components/abb',
+              title: 'Test',
+              link: 'components/Test',
             },
           ],
         },
@@ -29,7 +29,7 @@ export default defineConfig({
           children: [
             {
               title: 'Button',
-              link: 'components/Test',
+              link: 'components/Abb',
             },
           ],
         },
