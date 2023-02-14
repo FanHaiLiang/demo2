@@ -1,7 +1,11 @@
 import { defineConfig } from 'dumi';
 
+const repo = 'frankfanhl-test2'; // 项目名
+
 export default defineConfig({
   outputPath: 'docs-dist',
+  base: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   themeConfig: {
     name: '快维斯特',
     title: 'quest-component',
