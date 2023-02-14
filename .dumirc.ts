@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'frankfanhl-test2'; // 项目名
+const repo = 'demo2'; // 项目名
 
 export default defineConfig({
   outputPath: 'docs-dist',
