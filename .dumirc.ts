@@ -15,12 +15,12 @@ export default defineConfig({
           title: 'ABB',
           children: [
             {
-              title: 'Button',
+              title: 'Foo',
               link: 'components/Foo',
             },
             {
-              title: 'Test',
-              link: 'components/Test',
+              title: 'Abb',
+              link: 'components/Abb',
             },
           ],
         },
@@ -28,8 +28,8 @@ export default defineConfig({
           title: '贝加莱',
           children: [
             {
-              title: 'Button',
-              link: 'components/Abb',
+              title: 'Test',
+              link: 'components/Test',
             },
           ],
         },
