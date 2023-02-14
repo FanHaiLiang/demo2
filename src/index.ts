@@ -1,3 +1,4 @@
-export { default as Foo } from './Foo';
-export { default as Abb } from './Abb';
-export { default as Test } from './Test';
+// abb
+export { default as AbbButton } from './abb-button';
+// 贝加莱
+export { default as BjlButton } from './bjl-button';
