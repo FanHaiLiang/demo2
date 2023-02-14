@@ -7,7 +7,10 @@
 1. yarn
 2. yarn start
 
-### 发版
+### 发布 和 更新 文档
+1. yarn run deploy
+
+### 发布 和 更新npm包
 1. 第一次发版
     1. npm adduser
 1. 修改 package.json version 增加1
