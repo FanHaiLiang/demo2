@@ -7,6 +7,6 @@ const AbbButton: FC<{
    * @default 默认值
    */
     title: string
-}> = (props) => <Button type="primary" size='small'>{props.title} 222</Button>;
+}> = (props) => <Button type="primary" size='small'>{props.title} 222333</Button>;
 
 export default AbbButton;
