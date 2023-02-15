@@ -4,7 +4,7 @@ hero:
   description: quest-global 业务组件库
   actions:
     - text: 组件库
-      link: /components/abb-button
+      link: /components
     # - text: World
     #   link: /
 # features:

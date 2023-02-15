@@ -23,10 +23,19 @@ export default defineConfig({
       facebook: 'https://xxxx'
     },
     nav: [
-      { title: '组件', link: '/components/abb-button' },
+      { title: '组件', link: '/components' },
     ],
     sidebar: {
       '/components': [
+        {
+          title: '概览',
+          children: [
+            {
+              title: 'readme',
+              link: 'components',
+            },
+          ],
+        },
         {
           title: 'ABB',
           children: [
